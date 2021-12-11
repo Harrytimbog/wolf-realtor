@@ -23,10 +23,10 @@ const RightArrow = () => {
   return (
     <Flex justifyContent="center" alignItems="center" marginRight="1">
       <Icon
-      as={FaArrowAltCircleRight}
-      onClick={() => scrollNext()}
-      fontSize="2xl"
-      cursor="pointer"
+        as={FaArrowAltCircleRight}
+        onClick={() => scrollNext()}
+        fontSize="2xl"
+        cursor="pointer"
       />
     </Flex>
   );
